@@ -16,8 +16,8 @@ print(my_set.add(7))
 print(my_set)
 print(my_set.add(9))
 print(my_set)
-print(my_set.remove(9))
+my_set.pop()
 print(my_set)
-
+print(my_set.pop())
 
 
