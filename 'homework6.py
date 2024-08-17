@@ -4,20 +4,17 @@
 #my_dict ['Anton']= 1989
 #print(my_dict['Anton'])
 #my_dict['Lola']=1995
-#del my_dict['Anton']
+#f = my_dict.pop('Anton')
+#print(f)
 #print(my_dict)
 #print(my_dict.keys())
 
 my_set = {1, 2, 2, 5, 6, "King","King", True, (10, 11, 12, 13)}
 print(my_set)
-list = [1, 2, 2, 5, 5]
-print(set(list))
 print(my_set.add(7))
 print(my_set)
 print(my_set.add(9))
 print(my_set)
-my_set.pop()
+my_set.discard(1)
 print(my_set)
-print(my_set.pop())
-
 
